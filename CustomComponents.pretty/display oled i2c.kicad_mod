@@ -1,0 +1,226 @@
+(footprint "display oled i2c"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.7 -3.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "f09ae5b1-6901-4bc8-8291-b014109d9989")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "display oled i2c"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "910ec582-4c56-40c6-8838-708aec33767a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6352daa4-7894-4187-9dcf-05e2b2c71953")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f23b13de-45d7-49e3-ab80-6c8812227a8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -9.9 -1.5)
+		(end -9.9 26.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b3b4e029-4d60-43e6-8dac-4873de6c3bee")
+	)
+	(fp_line
+		(start -9.9 2.8)
+		(end 17.5 2.8)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d3fa031-bfc6-421a-861a-f12a91090ce3")
+	)
+	(fp_line
+		(start -9.9 22.1)
+		(end 17.5 22.1)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1c871203-3e44-4164-be65-297572f9cb70")
+	)
+	(fp_line
+		(start -9.9 26.3)
+		(end 17.5 26.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "17058ece-ed9e-4c7d-acf5-5b5a8531ea2f")
+	)
+	(fp_line
+		(start 0 -1.5)
+		(end -9.9 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "38a0e5b6-29eb-4cfb-9179-575754a9a1d2")
+	)
+	(fp_line
+		(start 0 -1.5)
+		(end 17.5 -1.5)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ac2febcc-f854-4b8d-bdc4-82b9525a69ea")
+	)
+	(fp_line
+		(start 17.5 -1.5)
+		(end 17.5 26.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4cd6dd71-1a20-4a7a-85db-c4e44285ae59")
+	)
+	(fp_line
+		(start -1.27 0.635)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "729c8fb3-1838-4cb0-ae8c-c3145a49ed5a")
+	)
+	(fp_line
+		(start -0.635 1.27)
+		(end -1.27 0.635)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2be4240-ed77-4568-b7b2-36a24871db2a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "9bd31ab5-b27d-4ea5-a61b-c9688de60338")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 3.81 0 180)
+		(layer "F.Fab")
+		(uuid "e8eda400-7fe4-4551-8956-2df1a7411144")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 2.54 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b09b9f29-2c8b-480f-980f-e134eaf294d4")
+	)
+	(pad "2" thru_hole rect
+		(at 0 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "68beef3e-4f2f-406e-b338-016415b127c8")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60bb28cd-8fbc-4fca-953c-3159b251f815")
+	)
+	(pad "4" thru_hole circle
+		(at 7.62 0 90)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b0913105-d06d-4575-bb5b-2ba23ac40a04")
+	)
+	(embedded_fonts no)
+	(model "${KICAD10_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x04_P2.54mm_Vertical.step"
+		(offset
+			(xyz 7.5 0 2.5)
+		)
+		(scale
+			(xyz 0.9 1 1)
+		)
+		(rotate
+			(xyz -180 -0 -90)
+		)
+	)
+	(model "${KIPRJMOD}/3d Models/1-54-i2c-oled-1/1.54” i2c oled no pins.step"
+		(offset
+			(xyz 3.5 -12 2.5)
+		)
+		(scale
+			(xyz 0.65 0.7 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
